@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 190px 50px;
+  border-bottom: 1px solid var(--Dark_grayish_blue);
+}
+.container .leftContainer {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.leftContainer img {
+  width: 140px;
+  height: 19px;
+}
+.leftContainer ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--Dark_grayish_blue);
+}
+ul li {
+  cursor: pointer;
+  padding: 50px 0px 50px;
+}
+ul li:hover {
+  border-bottom: 5px solid var(--orange);
+  color: var(--Black);
+}
+.rightContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.rightContainer {
+  cursor: pointer;
+}
+.rightContainer img:last-child {
+  width: 50px;
+}

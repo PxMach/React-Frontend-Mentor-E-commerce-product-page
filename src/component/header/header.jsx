@@ -17,8 +17,8 @@ export const Header = () => {
         </nav>
       </div>
       <div className={styles.rightContainer}>
-        <img src="/images/icon-cart.svg" alt="image cart" />
-        <img src="/images/image-avatar.png" alt="image avatar" />
+        <img src="images/icon-cart.svg" alt="image cart" />
+        <img src="images/image-avatar.png" alt="image avatar" />
       </div>
     </header>
   );
